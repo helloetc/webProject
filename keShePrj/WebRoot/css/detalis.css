@@ -1,0 +1,32 @@
+#details_img{
+    width: 540px;
+    height: 270px;
+    background:#ccc;
+    float: left;
+}
+#details_about{
+    height: 270px;
+    width: 510px;
+    background: rgb(212, 110, 110);
+    float: left;
+    margin-left: 20px;
+}
+#details_show{
+    width: 1100px;
+    margin: 10px auto;
+    font-size: 15px;
+    color: #000;
+}
+#goods_class{
+    display: none;
+    position: absolute;
+}
+#goods_class:hover{
+    display: block;
+}
+#all_class:hover + ul{
+      display: block;
+}
+#show_class:hover ul{
+    display: block;
+}
